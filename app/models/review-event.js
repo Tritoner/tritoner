@@ -10,6 +10,7 @@ export default class ReviewEventModel extends Model {
     /*
      * How do we think we will query the tracklist or individual songs
      * They likely have meta-data of their own. E.g. feature artists, trackname, length 
+     * this tracklist will map 1:1 to the actual submitted review tracklist. Makes me think there is a better way.
      */
     @attr reviewItems;
 }
