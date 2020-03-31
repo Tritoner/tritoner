@@ -1,9 +1,9 @@
 import Model, { attr } from '@ember-data/model';
 
 export default class ReviewModel extends Model {
-    @attr userId; // The user that submitted the review
+    @attr userId;
     @attr title;
     @attr description;
     @attr dateSubmitted;
-    @attr reviewItems; // see comment in review-event.js. This is where the user leaves comments and scores per track
+    @attr reviewItemIds;
 }
